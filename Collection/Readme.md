@@ -21,14 +21,15 @@ A collections framework is a unified architecture for representing and manipulat
 ![Collection，image froms Java official doc online](https://docs.oracle.com/javase/tutorial/figures/collections/colls-coreInterfaces.gif)  
 
 ###  Collection  
-1.Set  
+1.[Set](./Set)  
 - SortedSet  
 
-2.List  
+2.[List](./List) 
 
-3.Queue  
+3.[Queue](./Queue)
 
 4.Deque
 
 ###  Map  
-1.SortedMap
+1.[Map](./Map)  
+- SortedMap
