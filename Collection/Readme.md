@@ -9,7 +9,7 @@ A collections framework is a unified architecture for representing and manipulat
  所有的集合框架包含以下内容:  
 
  - Interfaces: These are abstract data types that represent collections. Interfaces allow collections to be manipulated independently of the details of their representation. In object-oriented languages, interfaces generally form a hierarchy.  
- 接口：接口是表示集合的抽象数据类型。接口允许对集合进行独立于其表示细节的操作（即对操作抽象，不做细节实现）。在oo（面向对象）的语言里，接口通常构成一个层次结构。  
+ 接口：接口是表示集合的抽象数据类型。接口允许对集合进行独立于其表示细节的操作（即对操作抽象，不做细节实现）。在oo（面向对象）的语言里，接口通常构成一个层次结构。  
 
 - Implementations: These are the concrete implementations of the collection interfaces. In essence, they are reusable data structures.  
 实现：实现是接口的具体实现。本质上来讲，它们是可复用的数据结构。
