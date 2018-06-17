@@ -15,4 +15,21 @@ A collections framework is a unified architecture for representing and manipulat
 实现：实现是接口的具体实现。本质上来讲，它们是可复用的数据结构。
 
 - Algorithms: These are the methods that perform useful computations, such as searching and sorting, on objects that implement collection interfaces. The algorithms are said to be polymorphic: that is, the same method can be used on many different implementations of the appropriate collection interface. In essence, algorithms are reusable functionality.  
-算法：算法是实现集合接口的执行有用的计算的方法，如搜索和排序。算法被认为是多态的，也就是说，同样的方法能够被不同的集合接口使用。本质上来说，算法是可复用的功能。
+算法：算法是实现集合接口的执行有用的计算的方法，如搜索和排序。算法被认为是多态的，也就是说，同样的方法能够被不同的集合接口使用。本质上来说，算法是可复用的功能。  
+
+
+集合框架中核心构成有下图所示
+![Collection，image froms Java official doc online](https://docs.oracle.com/javase/tutorial/figures/collections/colls-coreInterfaces.gif)  
+
+###  Collection  
+1.Set  
+- SortedSet  
+
+2.List  
+
+3.Queue  
+
+4.Deque
+
+###  Map  
+1.SortedMap
