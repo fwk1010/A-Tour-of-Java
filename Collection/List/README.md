@@ -7,7 +7,7 @@ List(列表)是有序的集合，有时又叫序列。List能够包含重复的�
 
 The Java platform contains two general-purpose List implementations. ArrayList, which is usually the better-performing implementation, and LinkedList which offers better performance under certain circumstances.-- References from [Java official doc online](https://docs.oracle.com/javase/tutorial/collections/interfaces/list.html)  
 
-在Java平台中包含两种通用的List实现（ArrayList和LinkedList）。ArrayList通常是性能较好的实现，而LinkedList在某些情况下提供更好的性能。
+在Java平台中包含两种通用的List实现（ArrayList和LinkedList）。ArrayList通常是性能较好的实现，而LinkedList在某些情况下则提供更好的性能。
 
 List  
 - ArrayList
