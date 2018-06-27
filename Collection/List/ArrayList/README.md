@@ -12,6 +12,7 @@ Each ArrayList instance has a capacity. The capacity is the size of the array us
 每一个ArrayList实例都有一个容量。该容量是list存储元素的数组大小。它总是至少和list的大小一样大。当元素添加到一个ArrayList，它的容量会自动增长。具体的扩容策略并不会特别超出添加一个元素所均摊的时间成本。  
 
 An application can increase the capacity of an ArrayList instance before adding a large number of elements using the ensureCapacity operation. This may reduce the amount of incremental reallocation.  
+
 在添加大量元素前，应用程序可以使用 ensureCapacity 操作来增加 ArrayList 实例的容量。这可能减少递增式再分配的数量。  
 
 **Note that this implementation is not synchronized.** If multiple threads access an ArrayList instance concurrently, and at least one of the threads modifies the list structurally, it must be synchronized externally. (A structural modification is any operation that adds or deletes one or more elements, or explicitly resizes the backing array; merely setting the value of an element is not a structural modification.) This is typically accomplished by synchronizing on some object that naturally encapsulates the list. If no such object exists, the list should be "wrapped" using the Collections.synchronizedList method. This is best done at creation time, to prevent accidental unsynchronized access to the list:
