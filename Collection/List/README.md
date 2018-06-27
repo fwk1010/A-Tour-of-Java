@@ -10,5 +10,5 @@ The Java platform contains two general-purpose List implementations. ArrayList, 
 在Java平台中包含两种通用的List实现（ArrayList和LinkedList）。ArrayList通常是性能较好的实现，而LinkedList在某些情况下则提供更好的性能。
 
 List  
-- ArrayList
-- LinkedList
+- [ArrayList](./ArrayList)
+- [LinkedList](./LinkedList)
